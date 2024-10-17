@@ -1,0 +1,32 @@
+#mapa{
+    margin-left: 110px;
+}
+
+.rectangulo{
+    height: 200px;
+    width: 1270px;
+    border: 2px solid gainsboro;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+.cuadrado{
+    height: 20px;
+    width: 20px;
+    background-color: aquamarine;
+    margin: 40px 40px;
+}
+
+.cuadrado1{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 163, 15);
+    margin: 40px 40px;
+}
+
+.cuadrado2{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(228, 78, 87);
+    margin: 40px 40px;
+}

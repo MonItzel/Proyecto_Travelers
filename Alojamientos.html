@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+    
+    <link rel="stylesheet" href="./Alojamientos.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <script src="https://kit.fontawesome.com/c41395e978.js" crossorigin="anonymous"></script>
+
+    <title>Alojamientos</title>
+</head>
+
+<body>
+    
+    
+    <header>
+        
+        <div class="container">
+            <div id="contBusca">
+                <label>Origen <input type="text" name="usuario"></label>
+                <label>Destino <input type="text" name="usuario"></label>
+                <input type="date">
+                <input type="date">
+            </div>
+
+            <div class="row align-items-stretch justify-content-between">
+                
+ 
+                                
+                                 
+                                    <table id="lista-carrito" class="table">
+                                       
+                                       <!-- <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>-->
+                                        <tbody></tbody>
+                                    </table>
+
+                                 
+                                </div>
+                            
+                        
+        
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            
+            
+        </div>
+
+        <div class="container" id="lista-productos">
+            
+            <div class="card-deck  text-center">
+                
+                <div class="carts">
+                    
+                    <div class="card-body">
+                        <img src="https://picsum.photos/300/300" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">1320</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h4 class="my-0 font-weight-bold">Hotel</h4>
+                            <li>Ubicación: Guadalajara</li>
+                            <li>Precio: 1,320</li>
+                            
+                        </ul>
+                        <a href="" class="btn-C agregar-carrito" data-id="1">Detalles</a>
+                    </div>
+                </div>
+
+                <div class="carts">
+                    
+                    <div class="card-body">
+                        <img src="https://picsum.photos/300/300" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">600</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h4 class="my-0 font-weight-bold">Casa</h4>
+                            <li>Ubicación: Guadalajara</li>
+                            <li>Precio: 1,320</li>
+                            
+                        </ul>
+                        <a href="" class="btn-C agregar-carrito" data-id="2">Detalles</a>
+                    </div>
+                </div>
+
+                <div class="carts">
+                    
+                    <div class="card-body">
+                        <img src="https://picsum.photos/300/300" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">600</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h4 class="my-0 font-weight-bold">Casa</h4>
+                            <li>Ubicación: Guadalajara</li>
+                            <li>Precio: 1,320</li>
+                            
+                        </ul>
+                        <a href="" class="btn-C agregar-carrito" data-id="2">Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck  text-center">
+                
+                <div class="carts">
+                    
+                    <div class="card-body">
+                        <img src="https://picsum.photos/300/300" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">600</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h4 class="my-0 font-weight-bold">Casa</h4>
+                            <li>Ubicación: Guadalajara</li>
+                            <li>Precio: 1,320</li>
+                            
+                        </ul>
+                        <a href="" class="btn-C agregar-carrito" data-id="2">Detalles</a>
+                    </div>
+                </div>
+
+                <div class="carts">
+                    
+                    <div class="card-body">
+                        <img src="https://picsum.photos/300/300" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">600</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h4 class="my-0 font-weight-bold">Casa</h4>
+                            <li>Ubicación: Guadalajara</li>
+                            <li>Precio: 1,320</li>
+                            
+                        </ul>
+                        <a href="" class="btn-C agregar-carrito" data-id="2">Detalles</a>
+                    </div>
+                </div>
+
+                <div class="carts">
+                    
+                    <div class="card-body">
+                        <img src="https://picsum.photos/300/300" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">17</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h4 class="my-0 font-weight-bold">Lapicero</h4>
+                            <li>Color: Negro</li>
+                            <li>Precio: 17.00</li>
+                            
+                        </ul>
+                        <a href="" class="btn-C agregar-carrito" data-id="6">Detalles</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="carts">
+                    
+                    <div class="card-body">
+                        <img src="https://picsum.photos/300/300" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">600</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h4 class="my-0 font-weight-bold">Hostal</h4>
+                            <li>Ubicación: Guadalajara</li>
+                            <li>Precio: 1,320</li>
+                            
+                        </ul>
+                        <a href="" class="btn-C agregar-carrito" data-id="2">Detalles</a>
+                    </div>
+                </div>
+
+                <div class="carts">
+                    
+                    <div class="card-body">
+                        <img src="https://picsum.photos/300/300" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">600</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h4 class="my-0 font-weight-bold">Casa</h4>
+                            <li>Ubicación: Guadalajara</li>
+                            <li>Precio: 1,320</li>
+                            
+                        </ul>
+                        <a href="" class="btn-C agregar-carrito" data-id="2">Detalles</a>
+                    </div>
+                </div>
+
+                <div class="carts">
+                    
+                    <div class="card-body">
+                        <img src="https://picsum.photos/300/300" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">600</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h4 class="my-0 font-weight-bold">Hotel</h4>
+                            <li>Ubicación: Guadalajara</li>
+                            <li>Precio: 1,320</li>
+                            
+                        </ul>
+                        <a href="" class="btn-C agregar-carrito" data-id="2">Detalles</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+header{
+    width: 100%;
+    height: 100px;
+}
+
+
+#borde{
+    /*border: 2px solid black;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 120px;
+    margin-right:120px;
+}
+
+.caja{
+    height: 50px;
+    width: 400px;
+    background-color: coral;
+    /*margin: 9px 9px;*/
+    margin-top: 90px;
+    margin-bottom: 30px;
+    
+}
+
+iframe{
+    margin-left: 20px;
+}
+
+.c-left
+{  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 19px;
+    float: left;
+    width: 45%;
+    height: 300px;
+    /*border: 2px solid orangered;*/
+    overflow: hidden;
+}
+
+.c-right{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    float: right;
+    width: 48%;
+    height: 300px;
+    text-align: justify;
+   /* border: 2px solid orangered;*/
+    
+}
+
+
+.tam{
+    font-size: 1.2pc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.c-left ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+.c-left li{
+    width: 100%;
+    list-style: none;
+}
+
+.c-left img{
+    width: 100%;
+   height: 100%;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+.c-left, .c-left ul, .c-left img{
+    height: 100vh;
+}
+}
